@@ -1,0 +1,27 @@
+@import url(../../VariablesStyle.css);
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: var(--color-primary);
+	font-family: var(--font-body);
+}
+.LandingPage > *:not(footer) {
+	height: 100vh;
+	margin: 0 128px;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+@media (max-width: 800px) {
+	.LandingPage > *:not(footer) {
+		margin: 0 64px;
+	}
+}
+
+@media (max-width: 600px) {
+	.LandingPage > *:not(footer) {
+		margin: 0 16px;
+	}
+}

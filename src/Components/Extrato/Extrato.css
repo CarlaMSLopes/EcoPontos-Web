@@ -1,0 +1,49 @@
+@import url(../../VariablesStyle.css);
+
+.extratoBox {
+    border: 1px solid var(--color-dark);
+    width: 300px;
+    
+}
+.extrato {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+}
+.extrato h1 {
+    font-family: var(--font-body);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: var(--color-dark);
+    letter-spacing: 2px;
+}
+
+.miniStatus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.miniStatus h2 {
+    font-family: var(--font-body);
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--color-tertiary);
+}
+.paragrafo-miniStatus {
+    color: var(--color-grey);
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: start;
+    padding: 5px;
+}
+.btnMais {
+    width: 5px;
+    height: 2px;
+    align-self: center;
+    background-color: var(--color-dark);
+    border: 1px solid var(--color-dark);
+}

@@ -1,0 +1,51 @@
+@import url(../../VariablesStyle.css);
+
+.signUp-conteiner {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 10rem;
+	width: 100%;
+	height: 100vh;
+}
+
+.signUp-conteiner section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 3%;
+	gap: 2rem;
+}
+
+.Titulo_Formulario {
+	font-family: var(--font-title);
+	font-size: 24px;
+	color: var(--color-tertiary);
+}
+.signUp-conteiner section p a {
+	font-size: 18px;
+
+	color: var(--color-tertiary);
+	font-weight: bolder;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+}
+
+@media (max-width: 1200px) {
+	.signUp-conteiner {
+		gap: 0;
+	}
+}
+
+@media (max-width: 710px) {
+	.signUp-conteiner {
+		justify-content: center;
+		flex-direction: column;
+	}
+}

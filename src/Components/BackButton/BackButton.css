@@ -1,0 +1,16 @@
+
+.voltarLink {
+	position: fixed;
+	margin: 1rem 0 0 1rem;
+}
+
+.voltarLink span {
+	font-size: 48px;
+	color: black;
+}
+
+@media (max-width: 700px) {
+	.voltarLink {
+		position: relative;
+	}
+}
