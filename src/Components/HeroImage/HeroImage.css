@@ -1,0 +1,15 @@
+.Figure_hero img {
+  width: 500px;
+}
+
+@media (max-width: 800px) {
+  .Figure_hero img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Figure_hero {
+    display: none;
+  }
+}

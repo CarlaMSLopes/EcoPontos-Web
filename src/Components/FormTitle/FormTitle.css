@@ -1,0 +1,5 @@
+.Titulo_Formulario {
+	font-family: var(--font-title);
+	font-size: 24px;
+	color: var(--color-tertiary);
+}

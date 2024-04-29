@@ -1,0 +1,15 @@
+.HeroSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  gap: 1rem;    
+}
+
+@media (max-width: 800px) {
+  .HeroSection {
+   
+    flex-direction: column-reverse;
+  }
+}

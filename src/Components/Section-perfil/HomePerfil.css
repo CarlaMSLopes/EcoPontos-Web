@@ -1,0 +1,56 @@
+@import url(../../VariablesStyle.css);
+
+.contentInfoPerfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentWelcomeLinks {
+    font-family: var(--font-title);
+    color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contentWelcomeLinks h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+.contentWelcomeLinks a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color-tertiary);
+    font-weight: 600;
+}
+.contentWelcomeLinks div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.pontuacaoPerfil {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: var(--font-title);
+    font-size: 16px;
+    color: var(--color-dark);
+}
+.pontuacaoPerfil span {
+    font-size: 24px;
+}
+
+#spanPontos {
+    font-size: 48px;
+}
+.pontuacaoPerfil a {
+    text-decoration: none;
+    color: var(--color-tertiary);
+    font-size: 14px;
+}
+
+.imgSideBoyGirl {
+    width: 520px;
+    height: 300px;
+}
+

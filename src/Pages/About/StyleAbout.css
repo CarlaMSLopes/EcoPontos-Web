@@ -1,0 +1,77 @@
+@import url("../../VariablesStyle.css");
+
+body {
+	background-image: url("../../Assets/marcaDguaBackgroud.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.aboutSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 128px;
+	gap: 3rem;
+}
+.aboutSection h1 {
+	margin-top: 2rem;
+	font-family: var(--font-title);
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--color-tertiary);
+}
+.about_intro {
+	border: 2px solid var(--color-tertiary);
+	padding: 1rem;
+	border-radius: 10px;
+	font-family: var(--font-body);
+	font-weight: 500;
+	background-color: white;
+}
+
+.About_features_container {
+	display: flex;
+	flex-direction: row;
+	gap: 2.5rem;
+	justify-content: space-between;
+	
+}
+.coluna_1,
+.coluna_2 {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.About_features {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+	border: 2px solid var(--color-tertiary);
+	padding: 1rem;
+	border-radius: 10px;
+	
+	font-family: var(--font-body);
+	font-weight: 500;
+	background-color: white;
+}
+.About_features img {
+	width: 60px;
+}
+
+@media (max-width: 800px) {
+	.aboutSection {
+		margin: 0 64px;
+	}
+	.About_features_container{
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 600px) {
+	.aboutSection {
+		margin: 0 16px;
+	}
+	
+}

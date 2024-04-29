@@ -1,0 +1,18 @@
+@import url(../../VariablesStyle.css);
+
+form {
+    display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+label {
+    font-family: var(--font-title);
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--color-tertiary);
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+

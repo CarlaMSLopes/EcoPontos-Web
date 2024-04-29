@@ -1,0 +1,14 @@
+@import url("../../VariablesStyle.css");
+
+.navbar ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+@media (max-width: 600px) {
+	.navbar ul {
+		display: none;
+	}
+}

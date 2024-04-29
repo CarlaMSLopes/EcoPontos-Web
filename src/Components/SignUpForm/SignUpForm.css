@@ -1,0 +1,15 @@
+@import url(../../VariablesStyle.css);
+
+.Signup_form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.submit_secion {
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+    align-items: center;
+}

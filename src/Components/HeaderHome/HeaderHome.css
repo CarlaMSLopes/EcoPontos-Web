@@ -1,0 +1,27 @@
+.headerPerfil {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2%;
+}
+.perfil {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.perfilMenu {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	font-family: var(--font-title);
+	color: var(--color-tertiary);
+	font-size: 14px;
+}
+.btnsair {
+	text-decoration: none;
+	border: none;
+	background: transparent;
+}
+.btnsair:hover {
+	cursor: pointer;
+}

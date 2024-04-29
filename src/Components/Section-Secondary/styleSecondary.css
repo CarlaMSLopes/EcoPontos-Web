@@ -1,0 +1,23 @@
+@import url("../../VariablesStyle.css");
+.section__secondary {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 5%;
+	height: 400px !important;
+	margin-top: 2.5rem !important;
+}
+
+.section__secondary h1 {
+	font-family: var(--font-title);
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: var(--color-tertiary);
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.section__secondary h1 {
+		font-size: 1.3rem;
+	}
+}

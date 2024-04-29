@@ -1,0 +1,12 @@
+@import url(../../VariablesStyle.css);
+.btnSub {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 314px;
+	height: 43.85px;
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--color-tertiary);
+	background-color: var(--color-secundary);
+}

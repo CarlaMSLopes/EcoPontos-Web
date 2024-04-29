@@ -1,0 +1,49 @@
+@import url("../../VariablesStyle.css");
+
+.CheckBox_Cadastro,
+.CheckBox_Login {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	width: 300px;
+}
+.CheckBox_Login{
+   justify-content: start;
+}
+
+.CheckBox_Cadastro :hover,
+.CheckBox_Login:hover {
+	cursor: pointer;
+}
+
+.CheckBox_Cadastro input {
+	width: 2rem;
+	height: 1rem;
+	background-color: white;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid;
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.CheckBox_Cadastro input:checked, .CheckBox_Login input:checked   {
+	background-color: var(--color-secundary);
+}
+
+.CheckBox_Login input {
+	width: 1rem;
+	height: 1rem;
+	background-color: white;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 1px solid;
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	cursor: pointer;
+}

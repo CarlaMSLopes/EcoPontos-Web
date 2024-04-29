@@ -1,0 +1,31 @@
+@import url(../../VariablesStyle.css);
+input {
+	border: 1px solid var(--color-tertiary);
+	background-color: white;
+	border-radius: 36px;
+	display: flex;
+	flex-direction: column;
+
+	width: 300px;
+	height: 40px;
+	padding-left: 10px;
+
+	margin: 0;
+}
+input:hover {
+	border: 1px solid var(--color-secundary);
+}
+input:focus {
+	outline: none;
+	border: 1px solid var(--color-secundary);
+}
+
+label {
+	font-family: var(--font-title);
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--color-tertiary);
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

@@ -1,0 +1,47 @@
+@import url("../../VariablesStyle.css");
+
+footer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: var(--color-secundary);
+	justify-content: space-around;
+	padding: 2%;
+	margin-top: 3rem;
+}
+.nav_footer,
+.nav_footer_redesSociais {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.nav_footer ul {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.li_span_titulo {
+	font-weight: bold;
+	color: white;
+	font-family: var(--font-body);
+}
+
+.nav_footer_redesSociais ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+.nav_footer_redesSociais ul li a img {
+	width: 1.5rem;
+}
+
+@media (max-width: 600px) {
+	.parceiros {
+		display: none;
+	}
+
+	footer {
+		padding: 1.5rem 0 1.5rem 0;
+	}
+}
